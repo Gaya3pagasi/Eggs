@@ -1,0 +1,96 @@
+body {
+    background-color: #f3e6d8;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: #5f574e;
+    font-family: mole;
+}
+
+.container {
+    background-color: white;
+    max-width: 700px;
+    padding: 40px;
+    border-radius: 20px;   
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+
+.pink {
+    background-color: #fff5fa;
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+h1 {
+    color: #302d2c;
+    font-family: shit;
+}
+
+h2 {
+    color: #854632;
+    font-family: shit;
+}
+
+h3 {
+    color: #7b284f;
+    font-family: mole;
+    margin: 0;
+    padding-top: 10px;
+
+    padding-left: 10px;
+}
+
+ul, ol {
+    padding-left: 30px;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+}
+
+table {
+    width: 375px;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid var(#e4ded8);
+    border-width: 375px;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: mole;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: shit;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+
+@media screen and (max-width:375px) {
+    .container {
+    width: 100%;;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    }
+    img {
+        max-width: 100%;
+        border-radius: 0px;
+    }
+}
